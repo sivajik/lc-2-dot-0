@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class PRob451_SortCharsByFreq {
+public class Prob451_SortCharsByFreq {
     public static void main(String[] args) {
         System.out.println(frequencySort("tree"));
         System.out.println(frequencySort("cccaaa"));
