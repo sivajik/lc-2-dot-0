@@ -14,12 +14,12 @@ public class Prob0125_ValidPalindrome {
         String str = s.trim().toLowerCase();
 
         int left = 0;
-        int right = str.length()-1;
+        int right = str.length() - 1;
 
         while (left <= right) {
-           char leftChar = str.charAt(left);
-           char rightChar = str.charAt(right);
-            while ( !isAlphaNumeric(leftChar)) {
+            char leftChar = str.charAt(left);
+            char rightChar = str.charAt(right);
+            while (!isAlphaNumeric(leftChar)) {
                 left++;
                 if (left < right) {
                     leftChar = str.charAt(left);
@@ -27,7 +27,7 @@ public class Prob0125_ValidPalindrome {
                     return true;
                 }
             }
-            while ( !isAlphaNumeric(rightChar)) {
+            while (!isAlphaNumeric(rightChar)) {
                 right--;
                 if (right > 0) {
                     rightChar = str.charAt(right);
@@ -47,6 +47,6 @@ public class Prob0125_ValidPalindrome {
     }
 
     private static boolean isAlphaNumeric(char c) {
-        return Character.isDigit(c) || Character.isAlphabetic(c);
+        return Character.isLetterOrDigit(c);
     }
 }
