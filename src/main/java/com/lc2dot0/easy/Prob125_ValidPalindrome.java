@@ -1,6 +1,6 @@
 package com.lc2dot0.easy;
 
-public class Prob0125_ValidPalindrome {
+public class Prob125_ValidPalindrome {
     public static void main(String[] args) {
         System.out.println(isPalindrome("raccar"));
         System.out.println(isPalindrome("racecar"));
