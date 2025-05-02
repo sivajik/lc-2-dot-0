@@ -59,15 +59,6 @@ public class Prob2_AddTwoNumbers {
         return prev;
     }
 
-     /*
-
-     2 4
-     3 5 6 5 6 4
-
-    465653
-    000042
-    ---- 59*/
-
     public static void print(ListNode l) {
         ListNode temp = l;
         while (temp != null) {
