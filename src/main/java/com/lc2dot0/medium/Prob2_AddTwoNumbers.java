@@ -49,7 +49,6 @@ public class Prob2_AddTwoNumbers {
 
     static ListNode reverse(ListNode head) {
         ListNode curr = head, prev = null, next;
-
         while (curr != null) {
             next = curr.next;
             curr.next = prev;
