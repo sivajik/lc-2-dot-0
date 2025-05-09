@@ -29,4 +29,20 @@ public class TreeNodeUtils {
             inOrder(tree.right);
         }
     }
+
+    public static void preOrder(TreeNode tree) {
+        if (tree != null) {
+            System.out.print(tree.val + " ");
+            preOrder(tree.left);
+            preOrder(tree.right);
+        }
+    }
+
+    public static void postOrder(TreeNode tree) {
+        if (tree != null) {
+            postOrder(tree.left);
+            postOrder(tree.right);
+            System.out.print(tree.val + " ");
+        }
+    }
 }
