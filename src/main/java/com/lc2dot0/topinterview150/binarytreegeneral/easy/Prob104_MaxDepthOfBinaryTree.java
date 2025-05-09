@@ -6,7 +6,7 @@ import static com.lc2dot0.topinterview150.binarytreegeneral.TreeNodeUtils.prepar
 
 public class Prob104_MaxDepthOfBinaryTree {
     public static void main(String[] args) {
-        TreeNode root = prepareTree(new int[]{3, 9, 20, -999, -999, 15, 7});
+        TreeNode root = prepareTree(new int[]{1, 2, 2, 3, 4, 4, 3});
         System.out.println(maxDepth(root));
     }
 
