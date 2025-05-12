@@ -7,7 +7,7 @@ import java.util.Map;
 
 import static com.lc2dot0.topinterview150.binarytreegeneral.TreeNodeUtils.inOrder;
 
-public class Prob106_TreeFromPreOrderInOrder {
+public class Prob105_TreeFromPreOrderInOrder {
     public static void main(String[] args) {
         TreeNode t = buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
         inOrder(t);
