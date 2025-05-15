@@ -3,9 +3,6 @@ package com.lc2dot0.topinterview150.binarytreegeneral.medium;
 import com.lc2dot0.topinterview150.binarytreegeneral.TreeNode;
 import com.lc2dot0.topinterview150.binarytreegeneral.TreeNodeUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static com.lc2dot0.topinterview150.binarytreegeneral.TreeNodeUtils.inOrder;
 
 public class Prob129_SumRootToLeafNumbers {
