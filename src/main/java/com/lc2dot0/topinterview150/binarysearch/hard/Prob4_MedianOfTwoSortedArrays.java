@@ -1,4 +1,4 @@
-package com.lc2dot0.topinterview150.binarysearch;
+package com.lc2dot0.topinterview150.binarysearch.hard;
 
 public class Prob4_MedianOfTwoSortedArrays {
     public static void main(String[] args) {
